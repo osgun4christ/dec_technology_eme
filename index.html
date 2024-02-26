@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empowering Women Entrepreneurs</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="splash-screen">
+    <div class="loader"></div>
+ 
+    <h1>Welcome to your one-stop-shop business solution</h1>
+  </div>
+
+  <header>
+    <div class="logo">
+        <h1>EME</h1>
+    </div>
+    <span>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </span>
+  </header>
+  
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Welcome to our platform!</h2>
+        <p>Empowering women to start and grow their own businesses.</p>
+        <a href="#" class="btn get-started">Get Started</a>
+      </div>
+      <div class="container">
+      <img src="assets/welcome.jpg" alt="Welcome Image" class="hero-image">
+    </div>
+    </section>
+
+    <!-- Sneak Peek of Tina's Persona -->
+    <section class="sneak-peek">
+      <div class="container">
+        </div>
+        <img src="assets/tina.png" alt="Tina's Image" class="tina-image">
+      </div>
+      <div class="sneak-peek-content">
+          <h2>Meet Tina: Our Featured Entrepreneur</h2>
+          <p>Tina, a marketing assistant turned entrepreneur, started her own business from scratch while juggling family responsibilities and a full-time job.</p>
+          <p>Discover Tina's inspiring journey and learn how she overcame challenges to achieve success in the business world.</p>
+          <a href="#" class="btn">Read Tina's Story</a>
+        
+    </section>
+    <!-- End of Sneak Peek -->
+    <!-- Additional sections for features, resources, community, etc. -->
+<!-- Add login and signup forms within the modal -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Login or Sign Up</h2>
+    <div id="login-form">
+      <input type="text" id="username" placeholder="Username">
+      <input type="password" id="password" placeholder="Password">
+      <button onclick="login()">Login</button>
+    </div>
+    <div id="signup-form" style="display: none;">
+      <input type="text" id="new-username" placeholder="New Username">
+      <input type="password" id="new-password" placeholder="New Password">
+      <button onclick="signup()">Sign Up</button>
+    </div>
+    <p id="switch-text">Don't have an account? <a href="#" onclick="switchForm()">Sign Up</a></p>
+  </div>
+</div>
+</div>
+ <!-- Testimonials or Success Stories -->
+ <section class="hero">
+  <div class="user-container">
+    <div class="">
+      <h2>What Our Users Say</h2>
+    </div>
+    <div class="testimonial">
+      <img src="assets/woman1.jpg" alt="User 1">
+      <p>"The platform helped me launch my business successfully. Highly recommended!"</p>
+      <span>- Sarah Johnson</span>
+    </div>
+    <div class="testimonial">
+      <img src="assets/woman2.jpg" alt="User 2">
+      <p>"I've learned so much from the resources provided here. Thank you!"</p>
+      <span>- Michael Smith</span>
+    </div>
+  </div>
+</section>
+
+<!-- Visual Content -->
+    <!-- Visual Content -->
+    <section class="visual-content">
+      <div class="container">
+        <h2>Watch Our Latest Video</h2>
+        <div class="video-container">
+          <!-- Embed YouTube video as iframe -->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/4-a8qQzTAVo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+<!-- Call-to-Action Buttons -->
+<section class="cta">
+  <div class="container">
+    <h2>Ready to Get Started?</h2>
+    <a href="#" class="btn">Sign Up Now</a>
+  </div>
+</section>
+
+<!-- Highlight Key Features -->
+<section class="features">
+  <div class="container">
+    <h2>Key Features</h2>
+    <div class="feature">
+      <img src="assets/feature1.jpg" alt="Feature 1">
+      <p>Business Idea Generator</p>
+    </div>
+    <div class="feature">
+      <img src="feature2.jpg" alt="Feature 2">
+      <p>Feature 2 Description</p>
+    </div>
+    <ul>
+      <li>:</li>
+      <li>Step-by-Step Guides</li>
+      <li>AI Chatbot Assistance</li>      
+      <li>Resource Library</li>
+      <li>Financial Planning Tools</li><!-- Add more features as needed -->
+    </ul>
+  </div>
+</section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Empowering Women Entrepreneurs</p>
+  </footer>
+
+
+  <!-- Floating ChatbotI  -->
+  <div id="ai-button" class="ai-button">
+    
+    <P style="color: purple;"><span>Chat me</span></P>
+  </div>
+
+  <!-- Chatbox container (hidden by default) -->
+  <div id="chatbox-container" class="chatbox-container">
+    <!-- Chatbox content -->
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
